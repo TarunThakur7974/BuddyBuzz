@@ -1,0 +1,403 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.head {
+    background-image: url('/Images/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    /* height: 685px; */
+}
+
+nav {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav img {
+    object-fit: fill;
+    height: 65px;
+    width: 120px;
+}
+
+nav span {
+    color: white;
+}
+
+nav span i {
+    padding-right: 5px;
+}
+
+.headCount {
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.headBoxOne {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: end;
+    width: 50%;
+}
+
+.headBoxTwo {
+    /* border: 5px solid blue; */
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    width: 50%;
+}
+
+.headone {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form * {
+    width: 100%;
+    padding: 10px;
+}
+
+#facebookBtn {
+    background-color: #3b5998;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+.i {
+    width: 80px;
+}
+
+#googleBtn {
+    background-color: #de4b39;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+}
+
+.submitBtn {
+    color: white;
+    background-color: #ff82bd;
+}
+
+.headBoxOne h2 {
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 500;
+}
+
+.headBoxOne p {
+    line-height: 1.8;
+    color: white;
+    font-weight: 500;
+}
+
+.sectionTwo {
+    padding-bottom:15px ;
+    background-color: white;
+}
+
+.start {
+    background-image: url('/Images/secondBaner.jpg');
+    background-position: fixed;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.SecboxOne {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    border: 1px solid black;
+    /* margin: 20px 0px; */
+}
+
+.headTwo {
+    width: 80%;
+    margin: 50px auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.imgUl {
+    padding: 10px 40px;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+    /* align-items: center; */
+    overflow: hidden;
+}
+
+li {
+    list-style: none;
+}
+
+.imgUl li img {
+    height: 200px;
+}
+
+.firstImgUl {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.firstImgUl a {
+    color: #ff82bd;
+}
+
+.SectionThree {
+    padding: 40px;
+    background-color: rgba(1, 1, 1, 0.573);
+}
+
+.htwo {
+    text-align: center;
+    padding: 10px 40px;
+    font-size: 2rem;
+    color: #ff82bd;
+}
+
+.hone {
+    text-align: center;
+    padding: 10px 40px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+.headThree {
+    padding: 20px 40px;
+    font-size: 1.5rem;
+    color: #ff82bd;
+    text-align: center;
+}
+
+.sectionFourth {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.fourBoxOne {
+    display: flex;
+    margin: auto;
+    width: 60%;
+    padding: 40px;
+    height: 300px;
+}
+
+.fourBoxOne p {
+    font-weight: 400;
+}
+
+.Fone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80%;
+    width: 200px;
+}
+
+.fourBoxTwo {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    justify-content: center;
+    gap: 5%;
+}
+
+.fboxes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 300px;
+    gap: 7%;
+}
+
+.fboxes p {
+    font-size: 0.8rem;
+    text-align: center;
+    color: rgb(53, 45, 45);
+}
+
+.fboxes h1 {
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: center;
+    color: rgb(53, 45, 45);
+}
+
+.SectionFive {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 30px;
+    background-color: rgba(1, 1, 1, 0.573);
+}
+
+.SectionFive h1 {
+    font-size: 1rem;
+    color: #f2f2f2;
+}
+
+.SectionFive span {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.SectionFive input {
+    outline: none;
+    border: none;
+    padding: 8px 15px;
+}
+
+.SectionFive button {
+    padding: 10px 28px;
+    color: white;
+    background-color: #ff82bd;
+    outline: none;
+    border: none;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot {
+    width: 100%;
+    height: 250px;
+    margin: 4% 0px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 4%;
+}
+
+.foot ul {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 4px;
+}
+
+.follow li {
+    font-size: 0.9rem;
+}
+
+.follow i {
+    margin-right: 10px;
+}
+
+.members li {
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.about p {
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+
+.help li {
+    font-weight: 500;
+    font-size: 0.7rem;
+}
+
+.footer h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 7px 0px;
+}
+
+@media (max-width:750px) {
+    .headCount {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .headBoxTwo {
+        width: 95%;
+    }
+
+    .headBoxOne {
+        background-color: rgba(39, 36, 36, 0.561);
+        border-radius: 25px;
+        padding: 10px;
+        width: 95%;
+    }
+
+    .SectionFive {
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .SectionFive span {
+        width: 100%;
+    }
+    .foot{
+        height: auto;
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
